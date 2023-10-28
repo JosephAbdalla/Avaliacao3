@@ -4,7 +4,7 @@ public class Midia {
 
     public Midia(String titulo) {
         this.titulo = titulo;
-        this.disponivel = true; // Inicialmente, a mídia está disponível
+        this.disponivel = true; 
     }
 
     public String getTitulo() {

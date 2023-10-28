@@ -43,6 +43,8 @@ public class Main {
                 case 2:
                     System.out.print("Digite o nome do autor: ");
                     String nomeAutor = scanner.nextLine();
+                    System.out.println("Digite a nacionalidade do autor:");
+                    String nacionalidadeAutor = scanner.nextLine();
                     Autor novoAutor = new Autor(nomeAutor);
                     autores.add(novoAutor);
                     System.out.println("Autor criado: " + novoAutor);

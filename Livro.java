@@ -6,7 +6,7 @@ public class Livro {
     public Livro(String titulo, Autor autor) {
         this.titulo = titulo;
         this.autor = autor;
-        this.emprestado = false; // Inicialmente, o livro não está emprestado
+        this.emprestado = false;
     }
 
     public String getTitulo() {
